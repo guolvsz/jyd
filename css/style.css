@@ -426,3 +426,19 @@
 	opacity: 1;
 	bottom: 0;
 }
+
+#mobileTerminal{
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+	display: none;
+}
+#mobileTerminal p{
+	font-size: 22px;
+	color: #222222;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+#mobileTerminal img{
+	width: 100px;
+}
