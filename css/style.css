@@ -107,7 +107,7 @@
 	opacity: 1;
 }
 .ie .section1 .sec1_pic1{
-	bottom: -15px;
+	bottom: 0px;
 	opacity: 1;
 }
 .ie .section1 .content .logo, .ie .section1 .content .tel{
@@ -153,6 +153,7 @@
 	.section2 .sec2_pic3{
 		right: 180px;
 	}
+	
 }
 @media screen and (min-height:200px) and (max-height:650px){
 	.section2 .sec2_pic1{
@@ -161,8 +162,8 @@
 	.section2 .sec2_pic2{
 		left: 545px;
 	}
-	.section2 .sec2_pic3{
-		right: 250px;
+	.ie .section2 .sec2_pic3{
+		right: 230px;
 	}
 }
 /*第二屏动画*/
@@ -177,11 +178,11 @@
 
 /*ie9下无动画*/
 .ie .section2 .sec2_pic1, .ie .section2 .sec2_pic2{
-	bottom: -15px;
+	bottom: 0px;
 	opacity: 1;
 }
 .ie .section2 .sec2_pic3{
-	bottom: 215px;
+	bottom: 20%;;
 	opacity: 1;
 }
 
@@ -287,7 +288,7 @@
 
 /*ie9下无动画*/
 .ie .section3 .sec3_pic1,.ie .section3 .sec3_pic2,.ie .section3 .sec3_pic3{
-	bottom: -15px;
+	bottom: 0px;
 	opacity: 1;
 }
 .ie .section3 .sec3_pic4{
@@ -482,6 +483,9 @@
 	.c_right .sorting .mode{
 		height: 49%;
 	}
+	.ie .c_right .contact .mode p{
+		margin-bottom: 10px;
+	}
 }
 @media screen and (min-height:400px) and (max-height:650px){
 	.section4 .c_left h1{
@@ -491,8 +495,14 @@
 		font-size: 14px;
 		margin-bottom: 0;
 	}
+	.ie .c_right .contact .mode p{
+		margin-bottom: 5px;
+	}
 	.c_right .sorting .mode{
 		height: 45%;
+	}
+	.section4 .center{
+		height: 90%;
 	}
 }
 
